@@ -5,11 +5,8 @@
  *	ensure it is wired up correctly and investigate the the output.
  *
  *	The Game Port is a 15 pin connection. To wire it up completely examine the
- *  diagram at github.com/csuski/sketches/gameport.  Not all connects may need
+ *  diagram at github.com/csuski/sketches/gameport.  Not all connections may need
  *  to be wired up or even exist.
- *
- *
- *
  *
  *	Created by Christopher Suski
  *	Created on June 5th, 2015
@@ -40,7 +37,7 @@ const int BufferSize = 131;
 
 void setup()
 {
-	Serial.begin(14400);
+	Serial.begin(38400);
 	pinMode(Button1Pin, INPUT);
 	pinMode(Button2Pin, INPUT);
 	pinMode(Button3Pin, INPUT);
